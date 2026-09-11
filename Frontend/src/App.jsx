@@ -78,6 +78,9 @@ const Market     = lazy(() => import('./pages/dashboard/MarketPrices'));
 const Schemes    = lazy(() => import('./pages/dashboard/GovernmentSchemes'));
 const ReportsP   = lazy(() => import('./pages/dashboard/Reports'));
 const Community  = lazy(() => import('./pages/dashboard/Community'));
+const BookEquipment = lazy(() =>
+  import('./pages/dashboard/BookEquipment')
+);
 
 // Existing pages (re-skinned)
 const Scanner    = lazy(() => import('./pages/Scanner'));
