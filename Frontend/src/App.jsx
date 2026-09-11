@@ -72,6 +72,10 @@ const Farms      = lazy(() => import('./pages/dashboard/Farms'));
 const Marketplace = lazy(() => import('./pages/dashboard/Marketplace'));
 const Calendar   = lazy(() => import('./pages/dashboard/CropCalendar'));
 const Weather    = lazy(() => import('./pages/dashboard/Weather'));
+const BookEquipment = lazy(() =>
+  import('./pages/dashboard/BookEquipment')
+);
+
 const Soil       = lazy(() => import('./pages/dashboard/SoilIrrigation'));
 const Alerts     = lazy(() => import('./pages/dashboard/PestAlerts'));
 const Market     = lazy(() => import('./pages/dashboard/MarketPrices'));
